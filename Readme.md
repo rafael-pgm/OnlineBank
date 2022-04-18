@@ -9,15 +9,15 @@ Para a criação da Database e da tabela utilizada junto com o programa, seguem 
 
 CREATE DATABASE OnlineBank;
 
-CREATE TABLE clients(
-	ID INT NOT NULL 
-	,Name VARCHAR(200) NOT NULL  
-	,Agency VARCHAR(4) NOT NULL 
-	,AccountNumber VARCHAR(5) NOT NULL 
-	,Balance BIGINT DEFAULT 0
-	,Credit BIGINT DEFAULT 0
-	,Email VARCHAR(100) NOT NULL 
-	,Adress VARCHAR (100) NOT NULL 
-	,Phone VARCHAR(11) NOT NULL 
-	,MaxCredit BIGINT DEFAULT 0
+CREATE TABLE clients (
+	  ID INT NOT NULL 
+	, Name VARCHAR(200) NOT NULL  
+	, Agency VARCHAR(4) NOT NULL 
+	, AccountNumber VARCHAR(5) NOT NULL 
+	, Balance BIGINT DEFAULT 0
+	, Credit BIGINT DEFAULT 0
+	, Email VARCHAR(100) NOT NULL 
+	, Adress VARCHAR (100) NOT NULL 
+	, Phone VARCHAR(11) NOT NULL 
+	, MaxCredit BIGINT DEFAULT 0
 );
